@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/874a82bd9d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/styles.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form id="search-form">
+            <input id="search-text-input" type="text" placeholder="Enter your city" autofocus="on" autocomplete="off" />
+            <input type="submit" value="search" />
+        </form>
+        <h1 id="city">
+            Kufstein
+        </h1>
+        <br>
+        <div class="weather">
+            <i class="fas fa-sun"></i>
+
+            <p class="temperature" id="temperature">
+                18°
+            </p>
+        </div>
+        <div class="date" id="currentDate">
+            <p>Thursday 17.10.2020</p>
+            <p>10:00pm</p>
+        </div>
+        <div class="row row-cols-5">
+            <div class="Friday">
+                <div class="col">Friday</div>
+
+                <br>
+                24°
+            </div>
+            <div class="Saturday">
+                <div class="col">Saturday</div>
+                <br>
+                25°
+            </div>
+            <div class="Sunday">
+                <div class="col">Sunday</div>
+                <br>
+                21°
+            </div>
+            <div class="Monday">
+                <div class="col">Monday</div>
+                <br>
+                26°
+            </div>
+            <div class="Tuesday">
+                <div class="col">Tuesday</div>
+                <br>
+                26°
+            </div>
+        </div>
+        <div class="row row-cols-5">
+            <div class="Sun">
+                <div class="col"><i class="fas fa-sun"></i></div>
+            </div>
+            <div class="Suncloud">
+                <div class="col"><i class="fas fa-cloud-sun"></i></div>
+            </div>
+            <div class="Cloud">
+                <div class="col"><i class="fas fa-cloud"></i></div>
+            </div>
+            <div class="Rain">
+                <div class="col"><i class="fas fa-cloud-sun-rain"></i></div>
+            </div>
+            <div class="Sun">
+                <div class="col"><i class="fas fa-sun"></i></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="src/script.js"></script>
+</body>
+
+</html>
