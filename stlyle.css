@@ -1,0 +1,73 @@
+body {
+  background-color: #e8ebe2;
+}
+h1 {
+  color: #ff809f;
+}
+
+.date {
+  color: #ff809f;
+  margin: 10;
+  font-size: 30px;
+}
+.weather {
+  position: relative;
+  color: yellow;
+  font-size: 50px;
+}
+.temperature {
+  font-size: 50px;
+  color: #ff809f;
+}
+.Saturday {
+  font-size: 20px;
+  text-align: center;
+}
+
+.Friday {
+  font-size: 20px;
+  text-align: center;
+}
+
+.Sunday {
+  text-align: center;
+  font-size: 20px;
+}
+
+.Monday {
+  text-align: center;
+  font-size: 20px;
+}
+
+.Tuesday {
+  font-size: 20px;
+  text-align: center;
+}
+
+.Sun {
+  text-align: center;
+  font-size: 40px;
+  color: yellow;
+}
+
+.Suncloud {
+  text-align: center;
+  font-size: 40px;
+  color: aquamarine;
+}
+
+.Cloud {
+  text-align: center;
+  font-size: 40px;
+  color: #daeeef;
+}
+
+.Rain {
+  text-align: center;
+  font-size: 40px;
+  color: #849a9b;
+}
+
+.Sun1 {
+  text-align: center;
+}
